@@ -1,0 +1,16 @@
+body {
+  font-family: 'Times New Roman', Times, serif, sans-serif;
+  text-align: center;
+  background-color: #fff8f8;
+  margin: 0;
+  padding: 2rem;
+}
+
+h1 {
+  color: #2020ff;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
