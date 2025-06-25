@@ -1,0 +1,26 @@
+*HTML BOILERPLATE CODE*
+
+<!DOCTYPE html> -> "REPRESENTS THAT WE'RE USING HTML"
+<html lang="en"> -> "LANG ATTRIBUTE SPECIFIES  THE LANGUAGE OF THEH DOCUMENT"
+<head> -> "HEAD TAG CONTAIN META INFORMATION ABOUT THE DOCUMENT"
+    <meta charset="UTF-8"> -> "CHARACTER ENCODING FOR THE DOCUMENT UTF-8 IS STANDARD"
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> -> "ENSURES PROPER RENDERING AND TOUCH ZOOMING IN MOBILES"
+    <title>Document</title> -> "TITLE OF THE DOCUMENT SHOWN IN BROWSER TAB"
+</head>
+<body>
+    
+</body>
+</html>
+
+*HTML TAGS*
+
+HEADING TAGS:
+<h1>-<h6>
+
+PARAGRAPH TAG: <p>is a paragraph</p>
+BREAK TAG: line break, creates a new line <br>
+STRONG TAG: BOLD REPRESENTATION <strong>
+EM TAG: italic representation <em>
+   
+
+
