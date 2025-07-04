@@ -1,0 +1,178 @@
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff8f8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000000;
+    padding: 10px 20px;
+    color: white;
+}
+
+#logo h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+#menu2 {
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+    margin: 0;
+    padding: 0;
+    padding-left: 60%;
+}
+
+#menu2 a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+#menu2 a:hover {
+    color: #938e78; 
+}
+
+#search {
+    margin-left: auto;
+}
+
+.text {
+    height: 40px;
+    width: 250px;
+    border-radius: 20px;
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+.hero {
+    background-color: #e4e3df;
+    color: #2d3e50;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero h2 {
+    margin:0;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+.hero button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #2d3e50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.hero button:hover {
+    background-color: #1a242f; 
+}
+
+#signin {
+    text-align: center;
+    margin: 20px 0;
+}
+
+#signin ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#signin li {
+    display: inline;
+    margin: 0 15px;
+}
+
+#signin a {
+    text-decoration: none;
+    color: #000000;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2d3e50;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+.search-btn {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #2d3e50;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+.product-card {
+  width: 200px;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+.product-card:hover {
+  transform: scale(1.05); 
+  box-shadow: 0 4px 15px rgba(220, 128, 128, 0.2); 
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-name {
+  font-size: 14px;
+  padding: 10px 10px 0;
+  font-weight: 500;
+  color: #333;
+  height: 38px;
+  overflow: hidden;
+}
+.product-grid {
+  display: flex;
+  flex-wrap: nowrap;      
+  overflow-x: auto;      
+  gap: 20px;
+  padding: 20px;
+}
+.price {
+  font-size: 15px;
+  font-weight: bold;
+  color: green;
+  padding: 5px 10px;
+}
+
+.old-price {
+  color: #999;
+  text-decoration: line-through;
+  margin-left: 5px;
+  font-weight: normal;
+}
+
+.brand {
+  font-size: 13px;
+  color: #666;
+  padding: 0 10px 10px;
+}
+.dropdown-content {
+                position: static;
+                opacity: 1;
+                visibility: visible;
+                transform: none;
+                box-shadow: none;
+                display: none;
+            }
